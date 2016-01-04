@@ -1,0 +1,32 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="left_drawer_width">200dp</dimen>
+
+    <dimen name="toolbar_tab_text_size">16sp</dimen>
+    <dimen name="toolbar_title_text_size">22sp</dimen>
+    <dimen name="toolbar_tab_padding_start">10dp</dimen>
+    <dimen name="toolbar_tab_padding_end">10dp</dimen>
+    <dimen name="toolbar_title_padding_left">27dp</dimen>
+
+
+    <dimen name="contact_text_size">18sp</dimen>
+    <dimen name="contact_text_height">40dp</dimen>
+    <dimen name="contact_text_padding_left">30dp</dimen>
+    <dimen name="contact_list_padding_top">20dp</dimen>
+
+    <dimen name="rounded_photo_width">300dp</dimen>
+    <dimen name="rounded_photo_corner_radius">300dp</dimen>
+    <dimen name="rounded_photo_padding_bottom">16dp</dimen>
+    <dimen name="oneline_vg_texts_size">30sp</dimen>
+    <dimen name="oneline_vg_decoration_space">60dp</dimen>
+    <dimen name="oneline_vg_margin_top">30dp</dimen>
+    <dimen name="oneline_vg_sender_name_text_size">20sp</dimen>
+    <dimen name="oneline_vg_date_text_size">16sp</dimen>
+    <dimen name="oneline_vg_action_text_size">16sp</dimen>
+
+    <dimen name="actionbar_height">72dp</dimen>
+</resources>

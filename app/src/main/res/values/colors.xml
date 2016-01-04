@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#333333</color>
+    <color name="colorPrimaryDark">#333333</color>
+    <color name="colorAccent">#FA5F8D</color>
+
+    <color name="gray_light">#DEDEDE</color>
+    <color name="normal_gray_text">#BBBBBB</color>
+    <color name="black">#000000</color>
+    <color name="disable_normal_gray_text">#747474</color>
+    <color name="disable_normal_dark_gray_text">#434343</color>
+    <color name="green_will_sync">#4fed69</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

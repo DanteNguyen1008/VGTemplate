@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VideoGrams</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="loading">Loading</string>
+
+    <string name="title_activity_video_player">VideoPlayerActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

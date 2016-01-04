@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rl_vg_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:paddingTop="10dp">
+
+    <RelativeLayout
+        android:id="@+id/keyframe_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/img_keyframe"
+            android:layout_width="@dimen/rounded_photo_width"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/user_info_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toLeftOf="@+id/ln_vg_actions_layout"
+        android:layout_toRightOf="@+id/keyframe_layout"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_sender_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/oneline_vg_texts_size"/>
+
+        <TextView
+            android:id="@+id/txt_created_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/normal_gray_text"
+            android:textSize="@dimen/oneline_vg_action_text_size"/>
+
+        <TextView
+            android:id="@+id/txt_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/normal_gray_text"
+            android:textSize="@dimen/oneline_vg_action_text_size"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln_vg_actions_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/txt_action_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:padding="10dp"
+            android:text="Removed"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/oneline_vg_action_text_size"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/txt_remove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:padding="10dp"
+            android:text="Remove"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/oneline_vg_action_text_size"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/txt_undo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:padding="10dp"
+            android:text="Undo"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/oneline_vg_action_text_size"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/txt_sync"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:padding="10dp"
+            android:text="Sync"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/oneline_vg_action_text_size"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
